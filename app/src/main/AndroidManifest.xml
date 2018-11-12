@@ -16,11 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".screens.home.view.HomeActivity"></activity>
-
-        <activity android:name=".screens.settings.view.SettingsActivity"></activity>
-
+        <activity android:name=".screens.home.view.HomeActivity" />
+        <activity android:name=".screens.settings.view.SettingsActivity" />
+        <activity android:name=".screens.profile.view.MyProfileActivity"></activity>
     </application>
 
 </manifest>
